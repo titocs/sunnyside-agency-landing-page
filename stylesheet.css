@@ -116,6 +116,7 @@ header > img {
 }
 
 .triangle {
+    display: none;
     position: absolute;
     top: -12%;
     left: 69%;
