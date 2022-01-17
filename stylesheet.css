@@ -233,6 +233,15 @@ header > img {
     transform: translateY(35%);
 }
 
+.egg-content > .content-padding > h2:hover {
+    cursor: pointer;
+}
+
+.egg-content > .content-padding > h2:hover::before {
+    cursor: pointer;
+    opacity: 1;
+}
+
 .egg-image {
     background-image: url(images/mobile/image-transform.jpg);
     background-size: cover;
@@ -291,11 +300,20 @@ header > img {
     position: absolute;
     width: 7em;
     height: 7px;
-    background-color: var(--Yellow);
+    background-color: var(--Soft-red);
     opacity: 0.5;
     z-index: -1;
     top: 50%;
     transform: translateY(35%);
+}
+
+.standout-content > .content-padding > h2:hover {
+    cursor: pointer;
+}
+
+.standout-content > .content-padding > h2:hover::before {
+    cursor: pointer;
+    opacity: 1;
 }
 
 /* ============ Graphic design and Photography section ======= */
