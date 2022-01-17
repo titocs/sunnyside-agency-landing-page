@@ -2,6 +2,7 @@ const topNav = document.querySelector(".top-nav");
 const arrow = document.querySelector(".arrow");
 const hambuger = document.querySelector("#image-hamburger");
 const contact = document.querySelector("#contact");
+const triangle = document.querySelector(".triangle");
 
 hambuger.addEventListener("click", function(){
     topNav.classList.toggle("displayBlock");
@@ -14,4 +15,5 @@ hambuger.addEventListener("click", function(){
     contact.style.textDecoration = "none";
     contact.style.marginTop = "1em";
     hambuger.classList.toggle("setOpacity");
+    triangle.classList.toggle("displayBlock");
 });
