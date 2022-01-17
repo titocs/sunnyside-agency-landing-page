@@ -131,11 +131,26 @@ header > img {
 }
 
 .top-nav li {
+    margin: 30px;
+    line-height: 1.8;
+    font-size: 17px;
+}
+
+#contact {
+    background-color: var(--Yellow);
+    border-radius: 25px;
+    font-family: 'Fraunces', serif;
+    padding: 15px 21px;
+    text-decoration: none;
+    color: var(--Very-dark-desaturated-blue);
+}
+
+/* .top-nav li {
     margin: 2em;
     text-decoration: none;
     line-height: 1.7;
     font-size: 17px;
-}
+} */
 
 .top-nav li a {
     text-decoration: none;
@@ -450,11 +465,20 @@ footer h1 {
     color: var(--Dark-desaturated-cyan);
 }
 
+.footer-nav a:hover {
+    cursor: pointer;
+    color: white;
+}
+
 .icon-social {
     display: flex;
     justify-content: center;
     gap: 2em;
     margin-bottom: 3em;
+}
+
+.icon-social img {
+    
 }
 
 .attribution { font-size: 11px; text-align: center; }
@@ -503,6 +527,12 @@ footer h1 {
         margin-left: auto;
         margin-top: auto;
         margin-bottom: auto;
+        font-size: 17px;
+    }
+
+    .top-nav li {
+        margin: 0px;
+        line-height: 1.8;
         font-size: 17px;
     }
 
