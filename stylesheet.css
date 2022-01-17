@@ -477,8 +477,9 @@ footer h1 {
     margin-bottom: 3em;
 }
 
-.icon-social img {
-    
+.icon-image:hover {
+    cursor: pointer;
+    fill: white;
 }
 
 .attribution { font-size: 11px; text-align: center; }
